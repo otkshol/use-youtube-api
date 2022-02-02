@@ -5,6 +5,6 @@
 
 [otkoab-list1.pdf](https://github.com/otkshol/use-youtube-api/files/7983304/otkoab-list1.pdf)
 
-## デモ
+## デモ（デザイン0状態とりあえず動くモノ）
 https://use-youtube-api.herokuapp.com/
 
