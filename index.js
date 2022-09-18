@@ -2,6 +2,7 @@ function fetchYoutubeData() {
   const hoge = document.getElementById("movieUrl");
   const url = hoge.value;
   const movieId = url.split("v=")[1];
+  // TODO API Keyをシークレット化する
   const APIKEY = `AIzaSyBC5cV_9G_Xq-sfZfh_sokwcGeOr4NIpsQ`;
 
   fetch(
