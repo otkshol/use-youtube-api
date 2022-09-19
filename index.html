@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="otkshol">
-    <meta name="viewport" content="width=device-width">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <meta name="application-name" content="Youtube動画分析プロトタイプ">
-    <meta name="apple-mobile-web-app-title" content="Youtube動画分析プロトタイプ">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="author" content="otkshol" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="application-name" content="Youtube動画分析プロトタイプ" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Youtube動画分析プロトタイプ"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <title>Youtube Data Demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="music_pianica_boy.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="music_pianica_boy.png" />
     <script src="./index.js"></script>
-</head>
-<body>
-    <h1>動画制作運用サポートツール（仮）お試し作成</h1>
-    <p>気になる動画のURLを入力して人気の理由を可視化しましょう</p>
-    <label for="movieUrl"><input type="url" pattern="https?://.+" title="URLを入力してください" id="movieUrl" size="100" placeholder="ここに動画URLを貼り付けて下さい" required></label>
-    <br>
-    <button onclick="fetchYoutubeData();">分析開始</button>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="text-center">
+      <h1 class="text-3xl font-bold underline text-clifford text-center">
+        動画制作運用サポートツール（仮）お試し作成
+      </h1>
+    <p class="text-center">気になる動画のURLを入力して人気の理由を可視化しましょう</p>
+
+    <div class="max-w-2xl mx-auto">
+      <label for="movieUrl" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
+      <div class="relative">
+          <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+              <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          </div>
+          <input type="url" id="movieUrl" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="ここに動画URLを貼り付けて下さい" required>
+          <button class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onclick=fetchYoutubeData();>分析開始</button>
+      </div>
+    </div>
+    <br />
     <div id="result"></div>
-</body>
+  </div>
+  </body>
 </html>

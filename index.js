@@ -16,8 +16,8 @@ function fetchYoutubeData() {
       return response.json().then((movieInfo) => {
         console.log(movieInfo);
         const view = `         
-          <h3>動画タイトル</h3>
-          <h4>${movieInfo.items[0].snippet.title}</h4>
+          <h3 class="text-3xl font-bold underline text-clifford text-center">動画タイトル</h3>
+          <h4 class="text-3xl font-bold underline text-clifford text-center">${movieInfo.items[0].snippet.title}</h4>
           ${movieInfo.items[0].player.embedHtml}
           <h3>動画サムネイル</h3>
           <p><img src="${movieInfo.items[0].snippet.thumbnails.medium.url}"></p>
