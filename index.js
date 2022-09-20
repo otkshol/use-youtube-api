@@ -124,7 +124,7 @@ function fetchYoutubeData() {
               <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
               </a>
             </div>
-            <span class="text-emerald-500 mr-2"><i class="fas fa-arrow-up"></i>TODO コピー機能ボタンをつける（TODO 末尾から取得する処理書いて実現。あと存在しない時の挙動を決める必要がある 例:項目ごと非表示 or 「なし」と表示する）</span>
+            <span class="text-emerald-500 mr-2"><i class="fas fa-arrow-up"></i>TODO 末尾から取得する処理書いて実現。あと存在しない時の挙動を決める必要がある 例:項目ごと非表示 or 「なし」と表示する</span>
           </div>
         </div>
       </div>
@@ -187,7 +187,7 @@ function copy() {
     setTimeout(
       () =>
         (document.querySelector("#external-tag-copy-text").textContent =
-          "動画内タグをコピー"),
+          "動画外タグをコピー"),
       2000
     );
   });
