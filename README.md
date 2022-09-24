@@ -14,8 +14,11 @@ https://use-youtube-api.herokuapp.com/
 ### 利用想定フロント技術
 - React
 - [Next.js](https://speakerdeck.com/recruitengineers/nextjs-2022)
-- TailwindCSS
+  - [React を学びたいなら Next.js チュートリアルがおすすめ。](https://www.ritolab.com/entry/241)
+- [TailwindCSS](https://tailwindcss.com/)
   - [TailWindCSSを始めようとしている人へ](https://zenn.dev/nbr41to/articles/276f40041ad9fe)
+  - [Tailwind CSS の全クラスの使用回数をカウントしてみた](https://qiita.com/punkshiraishi/items/f33f572cf12e39704fbf)
+  - [Tailwind CSS入門]（https://segakuin.com/css/tailwind/）
 - Typescript
 ### 利用想定バックエンド（API）技術
 - Spring boot
@@ -25,9 +28,18 @@ https://use-youtube-api.herokuapp.com/
 - [Mybatis](https://mybatis.org/mybatis-3/ja/index.html)
 - postgresql
 - [schemaspy](https://schemaspy.org/)
+  - [SchemaSpyでER図を生成する](https://zenn.dev/onozaty/articles/schema-spy-er)
 - [OPENAPI](https://swagger.io/specification/)
   - [OpenAPIとSwagger 入門](https://zenn.dev/chida/articles/25f4016560f6bf)
-### 利用外部ツール
+
+### 利用想定インフラ技術
+- [Docker]()
+  - [実践 Docker - ソフトウェアエンジニアの「Docker よくわからない」を終わりにする本](https://zenn.dev/suzuki_hoge/books/2022-03-docker-practice-8ae36c33424b59)
+
+### 利用ツール
+- git
+  - [gitを最低限使えるような気になれそうな本](https://zenn.dev/shige7110/books/671bc34f8bec97)
+  - [Git初心者のためのGitのあいまいさ完全に理解するガイド](https://qiita.com/yoshiichn/items/5d9c9105b980921f2809)
 - Github
 - [Github Actions](https://github.co.jp/features/actions)
 - AWS
@@ -45,5 +57,9 @@ https://use-youtube-api.herokuapp.com/
   - [Kotlin で RESTful API を開発する](https://auth0.com/blog/jp-developing-restful-apis-with-kotlin/#Kotlin-RESTful-API---Auth0---------)
 
 ### その他参考
+- [エンジニア向けチートシート集](https://qiita.com/KNR109/items/a6b3216552bee53b1724)
+- [API設計](https://learn.microsoft.com/ja-jp/azure/architecture/best-practices/api-design)
 - [Markdownの基本](https://commonmark.org/help/)
 - [MDN](https://developer.mozilla.org/ja/)
+- [実際に使っていて便利だと感じたアプリ、Chrome拡張、ターミナル拡張、VSCode拡張まとめ](https://qiita.com/nkato_/items/e902f84d5fc6a15a3796)
+- [VSCodeおすすめ設定大公開！！おすすめ拡張機能も](https://qiita.com/papi_tokei/items/c639dc7d1e0f5ad68a74)
