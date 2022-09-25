@@ -14,7 +14,7 @@ function fetchYoutubeData() {
       return response.json().then((movieInfo) => {
         console.log(movieInfo);
         const view = `
-        <div class="flex flex-wrap bg-black-500 ">   
+        <div class="flex flex-wrap bg-black-500 ">
         <div class="mt-2 w-full lg:w-6/12 xl:w-6/12 px-5 mb-4">
           <div class="relative flex flex-col min-w-0 break-words bg-white rounded mb-3 xl:mb-0 shadow-lg">
             <div class="flex-auto p-4">

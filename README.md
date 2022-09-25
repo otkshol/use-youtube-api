@@ -21,6 +21,7 @@ https://use-youtube-api.herokuapp.com/
   - [Tailwind CSS の全クラスの使用回数をカウントしてみた](https://qiita.com/punkshiraishi/items/f33f572cf12e39704fbf)
   - [Tailwind CSS入門](https://segakuin.com/css/tailwind/)
 - [Typescript](https://www.typescriptlang.org/)
+- [webpack]()
 ### 利用想定バックエンド（API）技術
 - Spring boot
   - [図解で学ぶSpring MVC](https://speakerdeck.com/otty375/architecture-of-spring-mvc)
