@@ -12,14 +12,15 @@ https://use-youtube-api.herokuapp.com/
 - [作業中のFigma](https://www.figma.com/file/kHl4ykeBljxZp1wJlKW9JS/otk-project?node-id=0%3A1)
 
 ### 利用想定フロント技術
-- React
-- [Next.js](https://speakerdeck.com/recruitengineers/nextjs-2022)
+- [React](https://ja.reactjs.org/)
+- [Next.js](https://nextjs.org/)
   - [React を学びたいなら Next.js チュートリアルがおすすめ。](https://www.ritolab.com/entry/241)
+  - [Next.js解説](https://speakerdeck.com/recruitengineers/nextjs-2022)
 - [TailwindCSS](https://tailwindcss.com/)
   - [TailWindCSSを始めようとしている人へ](https://zenn.dev/nbr41to/articles/276f40041ad9fe)
   - [Tailwind CSS の全クラスの使用回数をカウントしてみた](https://qiita.com/punkshiraishi/items/f33f572cf12e39704fbf)
-  - [Tailwind CSS入門]（https://segakuin.com/css/tailwind/）
-- Typescript
+  - [Tailwind CSS入門](https://segakuin.com/css/tailwind/)
+- [Typescript](https://www.typescriptlang.org/)
 ### 利用想定バックエンド（API）技術
 - Spring boot
   - [図解で学ぶSpring MVC](https://speakerdeck.com/otty375/architecture-of-spring-mvc)
